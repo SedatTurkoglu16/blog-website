@@ -20,7 +20,6 @@ const CreatePost = ({ isAuth }) => {
     navigate("/");
   };
 
-  
   useEffect(() => {
     if (!isAuth) {
       navigate("/login");
